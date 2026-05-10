@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>所有商品按价格排序</title>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+</head>
+<body>
+    <h2>所有商品按价格排序</h2>
+    <div id="chart" style="width: 800px; height: 500px;"></div>
+    <script>
+        var myChart = echarts.init(document.getElementById('chart'));
+        var option = {"xAxis": {"type": "category", "data": ["AirPods Pro", "小米平板 6", "索尼 WH-1000XM5", "iPad Air", "华为 Mate 60", "iPhone 15 Pro", "MacBook Air", "ThinkPad X1"], "axisLabel": {"rotate": 30}}, "yAxis": {"type": "value"}, "series": [{"type": "bar", "data": [5, 8, 6, 7, 2, 1, 3, 4], "itemStyle": {"color": "#5470c6"}}], "title": {"text": "所有商品按价格排序", "left": "center"}, "tooltip": {"trigger": "axis"}};
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
