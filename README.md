@@ -6,6 +6,17 @@
 
 - 输入："上个月销售额最高的商品是什么？"   
 - 输出：自动生成 SQL → 查询 SQLite 数据库 → 表格 + 柱状图展示结果
+ ### Web 界面首页
+![首页](./images/demo-web-home.png)
+
+### 查询示例：按价格排序
+![排序](./images/demo-query-sort.png)
+
+### 查询示例：用户消费总额
+![用户消费](./images/demo-query-user.png)
+
+### 查询示例：品类平均价格
+![平均价格](./images/demo-query-avg.png)
 
 ## 技术栈
 
@@ -51,16 +62,3 @@ python web_app.py
 python main.py
 
 
-## 功能截图
-
-### Web 界面首页
-![首页](images/demo-web-home.png)
-
-### 查询示例：按价格排序
-![排序](images/demo-query-sort.png)
-
-### 查询示例：用户消费总额
-![用户消费](images/demo-query-user.png)
-
-### 查询示例：品类平均价格
-![平均价格](images/demo-query-avg.png)
