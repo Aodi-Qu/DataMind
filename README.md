@@ -49,3 +49,18 @@ python web_app.py
 
 # 或者运行命令行版
 python main.py
+
+
+## 功能截图
+
+### Web 界面首页
+![首页](images/demo-web-home.png)
+
+### 查询示例：按价格排序
+![排序](images/demo-query-sort.png)
+
+### 查询示例：用户消费总额
+![用户消费](images/demo-query-user.png)
+
+### 查询示例：品类平均价格
+![平均价格](images/demo-query-avg.png)
